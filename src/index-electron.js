@@ -21,7 +21,7 @@ app.whenReady().then(crearVentanaPrincipal);
 /* En electron index-electron.js archivo ,se debe requerir index-express.js para iniciar la aplicacion express,luego creeamos una nueva instancia de browserwindow y cargamos la URL QUE ESCUCHARA LA APLICACION */
 /* https://www.it-swarm-es.com/es/node.js/como-usar-electron-con-una-aplicacion-express-existente/808567082/ */
 
-/* si quiero ejecutar solo la pagina tengo que hacer los siguiente scambios en mi archivo.json  muy importante
+/* si quiero ejecutar solo la pagina tengo que hacer los siguiente scambios en mi archivo.json  muy importante version3
 	"scripts": {
 		"test": "node src/server.js", 
 		"start": "electron  ."
